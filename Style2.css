@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+  background-image: url("HintergrundRot.png");
+  font-family: Georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.hero {
+  background-color: #ffffff;
+  border-radius: 500px;
+  border: 5px solid #ec1c24;
+  color: #000000;
+  text-align: center;
+  padding: 6px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+   font-size: 20px; 
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Abstand zwischen Bildern und Überschrift */
+}
+
+.side-image {
+  width: 50px; /* Bildbreite anpassen */
+  height: auto;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center; /* optional: zentriert die Boxen */
+  gap: 22px; /* Abstand zwischen den Boxen */
+  flex-wrap: wrap; /* Zeilenumbruch auf kleineren Bildschirmen */
+  text-align: center;
+}
+
+.features {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 5px solid #ec1c24;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+.feature-box {
+  flex: 1 1 300px; 
+  margin: 20px auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 4000px;
+  padding: 50px;
+  padding-bottom: 500px;
+  border: 5px solid #ec1c24;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 5px solid #ec1c24;
+  text-align: center;
+  padding: 20px;
+  border-radius: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
